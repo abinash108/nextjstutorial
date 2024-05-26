@@ -1,7 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
-
-function Check({ children }) {
+import React, {ReactNode} from 'react';
+interface Props {
+    children: ReactNode;
+}
+function Check({ children }: Props) {
     return (
         <div className="flex space-x-2 items-center">
             <input
