@@ -1,3 +1,7 @@
 export default function Page(){
-    return <p>HI MF</p>
+    return (
+        <div className="bg-[E3FEF7]">
+         <p>hi</p>
+        </div>
+    );
 }
