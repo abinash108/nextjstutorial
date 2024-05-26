@@ -1,6 +1,8 @@
 import Image from 'next/image'
-import React from 'react';
-
+import React , { ReactNode } from 'react';
+interface Props {
+    children: React.ReactNode;
+}
 function Check({ children }){
     return(
         <div className="flex space-x-2 items-center">
